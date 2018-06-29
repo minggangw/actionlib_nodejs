@@ -1,5 +1,7 @@
+'use strict'
+
 const ActionServer = require('./lib/ActionServer.js');
-const ActionConfig = require('./lib/ActionConfig')
+const ActionConfig = require('./lib/ActionConfig');
 
 const ActionLib = {
   config(configuration) {
